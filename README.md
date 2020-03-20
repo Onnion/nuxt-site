@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/0f4ff10c7307cc1d8bfd/maintainability)](https://codeclimate.com/github/Onnion/nuxt-site/maintainability)
+
 <!-- ## Configuração inicial
 
 preencher informações
