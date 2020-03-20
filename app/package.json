@@ -5,9 +5,10 @@
   "author": "Onnion",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "nuxt": "nuxt",
+    "prestart": "npm i --unsafe-perm",
+    "start": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {

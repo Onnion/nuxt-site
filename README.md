@@ -1,22 +1,32 @@
-# qgdi
+<!-- ## Configuração inicial
 
-> QGDI Site
+preencher informações
+```
+cp config.default.ts config.ts
+``` -->
 
-## Build Setup
+## Inicializando projeto
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+1. Iniciando container
+```
+docker-compose up --build -d
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+2. Executando comandos dentro do container
+```
+docker exec -it nuxt-site /bin/sh
+```
+
+## Vizualizar o projeto no browser
+
+1. Acesse a url: [localhost:3000](http://localhost:3000)
+
+
+## Finalizar o container
+```
+docker-compose down
+```
+
+## Lista de Dependências
+1. [Docker](https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-18-04-pt)
+1. [docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04-pt)
