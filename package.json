@@ -1,7 +1,7 @@
 {
-  "name": "qgdi",
+  "name": "nuxt-site",
   "version": "1.0.0",
-  "description": "QGDI Site",
+  "description": "NUXT Site",
   "author": "Onnion",
   "private": true,
   "scripts": {
