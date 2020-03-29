@@ -44,6 +44,9 @@ typings/
 # Optional npm cache directory
 .npm
 
+# Docker bundlers
+app/package*
+
 # Optional eslint cache
 .eslintcache
 

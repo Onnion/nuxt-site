@@ -16,7 +16,7 @@ docker-compose up --build -d
 
 2. Executando comandos dentro do container
 ```
-docker exec -it nuxt-site /bin/sh
+docker exec -it nuxt-site_nuxt_1 /bin/sh
 ```
 
 ## Vizualizar o projeto no browser
@@ -29,6 +29,15 @@ docker exec -it nuxt-site /bin/sh
 docker-compose down
 ```
 
+## Criação de componentes
+
+#### Criação de component multi files ts scss `nuxt-site_nuxt_1`
+```
+vgc component_name --script ts
+```
+
 ## Lista de Dependências
 1. [Docker](https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-18-04-pt)
 1. [docker-compose](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04-pt)
+1. [Vue Property Decorator](https://github.com/kaorun343/vue-property-decorator)
+1. [Vue Generate Cmponent](https://github.com/NetanelBasal/vue-generate-component)

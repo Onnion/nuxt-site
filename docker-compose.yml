@@ -2,9 +2,11 @@ version: "3.1"
 
 services:
   nuxt:
-    build: ./app/
+    build: ./
     volumes:
       - ./app:/usr/src/app
+      - ./node_modules:/usr/src/app/node_modules
+      - ./package.json:/usr/src/app/package.json
     working_dir: /usr/src/app
     ports:
       - "3000:3000"
