@@ -16,7 +16,7 @@ docker-compose up --build -d
 
 2. Executando comandos dentro do container
 ```
-docker exec -it nuxt-site_nuxt_1 /bin/sh
+docker exec -it nuxt-site_nuxt_1 /bin/bash
 ```
 
 ## Vizualizar o projeto no browser
@@ -32,9 +32,17 @@ docker-compose down
 ## Criação de componentes
 
 #### Criação de component multi files ts scss `nuxt-site_nuxt_1`
+1. Execute o script `create` do `package.json`
 ```
-vgc component_name --script ts
+NAME=component_name npm run create
 ```
+2. Mova a pasta gerada para o local de preferência dentro do projeto, <br>
+Feature waiting issue [Issue #13
+](https://github.com/NetanelBasal/vue-generate-component/issues/13)
+
+3. Mude o atributo `components` gerado no decorator do arquivo `component_name.ts` de um array para um objeto<br>
+Feature waiting pr [Pr #28
+](https://github.com/NetanelBasal/vue-generate-component/pull/28)
 
 ## Lista de Dependências
 1. [Docker](https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-18-04-pt)

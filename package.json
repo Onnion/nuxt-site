@@ -5,7 +5,7 @@
   "author": "Onnion",
   "private": true,
   "scripts": {
-    "vgc": "vgc",
+    "create": "vgc $NAME --script ts",
     "nuxt": "nuxt",
     "prestart": "npm i --unsafe-perm",
     "start": "nuxt",
