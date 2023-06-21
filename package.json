@@ -13,7 +13,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "nuxt": "^3.4.3",
     "bootstrap": "^4.4.1"
   },
   "devDependencies": {
